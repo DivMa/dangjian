@@ -1,0 +1,19 @@
+/**app.wxss**/
+.title{
+  text-align: center;
+}
+.contain{
+  padding-top: 80px;
+  padding-left: 22px;
+}
+.hr{
+  width: 100%;
+  height: 8px;
+border-bottom: 2px rgb(212, 212, 212) solid; 
+}
+.hr-1{
+  width: 100%;
+  height: 8px;
+border-bottom: 1px rgb(212, 212, 212) solid; 
+
+}
