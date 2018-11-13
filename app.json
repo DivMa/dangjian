@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/classify/classify",
+    "pages/mine/mine",
+    "pages/other/other",
+    "pages/develop/develop",
+    "pages/document/document",
+    "pages/relation/relation",
+    "pages/jump/jump"
+    
+
+   
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f31d1d",
+    "navigationBarTitleText": "党建学习",
+    "navigationBarTextStyle":"black"
+    
+        
+    
+  },"tabBar": {
+    "color": "#747779",
+    "borderStyle": "black",
+    "selectedColor": "#f70b0b",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "党建",
+      "iconPath": "pages/images/index.png",
+      "selectedIconPath": "/pages/images/index-1.png"
+    },{
+      "pagePath": "pages/classify/classify",
+      "text": "分类",
+      "iconPath": "/pages/images/classify.png",
+      "selectedIconPath": "/pages/images/classify-1.png"
+    },{
+      "pagePath": "pages/mine/mine",
+      "text": "我的",
+      "iconPath": "/pages/images/mine.png",
+      "selectedIconPath": "/pages/images/mine-1.png"
+    }]
+  }
+}
