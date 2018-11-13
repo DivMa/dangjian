@@ -1,0 +1,18 @@
+<!--pages/mine/mine.wxml-->
+<view class='user' bindtap="mine">
+ <view  class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <view class="userinfo-nickname">{{userInfo.nickName}}
+  </view>
+  <view class='arrow'> <image  src='/pages/images/arrow.png'style="width: 25px; height:25px"></image></view>
+
+</view>
+</view>
+<view class='hr'></view>
+
+<view class="container">
+ <view  bindtap="develop" class='list'>发展历程<image  class='arrow-1'  src='/pages/images/arrow.png'style="width: 25px; height:25px"></image></view>
+  <view  bindtap="document"  class='list'>党籍档案<image class='arrow-1' src='/pages/images/arrow.png'style="width: 25px; height:25px"></image></view>
+   <view  bindtap="relation" class='list'>组织关系<image class='arrow-1' src='/pages/images/arrow.png'style="width: 25px; height:25px"></image></view>
+ 
+</view>

@@ -1,0 +1,18 @@
+<!--pages/document/document.wxml-->
+<view class='title'>党籍档案包括</view>
+<view class='contain'>
+<view>1、入党申请书</view>
+<view>2、入党积极分子培养考察登记表</view>
+<view>3、政审材料</view>
+<view>4、“推优”登记表或“推优育苗”考察登记表（共青团员部分）</view>
+<view>5、入党积极分子思想汇报材料</view>
+<view>6、入党前公示情况档案材料</view>
+<view>7、入党积极分子培训合格证书</view>
+<view>8、个人自传</view>
+<view>9、入党志愿书</view>
+<view>10、预备党员期间每半年一次思想汇报材料</view>
+<view>11、转正申请书</view>
+<view>12、预备党员转正前公示情况档案材料</view>
+<view>13、其他有关证明材料</view>
+
+</view>

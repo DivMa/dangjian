@@ -1,0 +1,14 @@
+<!--pages/other/other.wxml-->
+<view class='hr'></view>
+
+<view class="container">
+
+<view  bindtap="changepic" class='list'><view class='toux'> 头像</view><image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image><image class='arrow'  src='/pages/images/arrow.png'style="width: 25px; height:25px"></image></view>
+
+
+ <view  bindtap="changename" class='list'>名字 <view class="userinfo-nickname">{{userInfo.nickName}}
+  </view><image  class='arrow-1'  src='/pages/images/arrow.png'style="width: 25px; height:25px"></image></view>
+  <view  bindtap="sex"  class='list'>性别<image class='arrow-1' src='/pages/images/arrow.png'style="width: 25px; height:25px"></image></view>
+   <view  bindtap="" class='list'>学号<image class='arrow-1' src='/pages/images/arrow.png'style="width: 25px; height:25px"></image></view>
+ 
+</view>

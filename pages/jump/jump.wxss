@@ -1,0 +1,13 @@
+/* pages/jump/jump.wxss */
+page{
+  background-image: url("http://img1.3png.com/2df111cc252a8bb8140d5698555ce491943b.png");
+  background-size: 99%;
+  background-repeat: no-repeat;
+  
+}
+.empty{
+  margin-top: 333px;
+  margin-left: 85px;
+  font-size: 135%;
+color:slategrey;
+}

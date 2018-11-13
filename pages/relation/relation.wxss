@@ -1,0 +1,6 @@
+/* pages/relation/relation.wxss */
+page{
+  background-image: url("http://pics.sc.chinaz.com/files/pic/pic9/201606/apic21616.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}

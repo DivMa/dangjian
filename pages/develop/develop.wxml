@@ -1,0 +1,23 @@
+<!--pages/develop/develop.wxml-->
+<view class='title'>党员发展过程简介</view>
+<view class='contain'>
+<view>一、自愿提出入党申请</view>
+<view>二、确定入党积极分子</view>
+<view>三、进入考察期</view>
+<view>四、政治审查</view>
+<view>五、短期培训</view>
+<view>六、听取党内外群众意见</view>
+<view>七、确定发展对象</view>
+<view>八、确定入党介绍人</view>
+<view>九、填写入党志愿书</view>
+<view>十、支委会审查</view>
+<view>十一、党委预审</view>
+<view>十二、组织员谈话</view>
+<view>十三、发展党员公示</view>
+<view>十四、召开支部大会</view>
+<view>十五、党委审批</view>
+<view>十六、支部向本人发出入党通知书</view>
+<view>十七、入党宣誓</view>
+<view>十八、预备期的培养考察</view>
+<view>十九、预备期满 考察合格，办理转正手续</view>
+</view>

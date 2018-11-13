@@ -1,0 +1,103 @@
+<!--index.wxml-->
+  <swiper 
+  indicator-dots='{{indicationDots}}'
+   autoplay='{{autoplay}}' 
+   interval='{{interval}}' 
+   duration='{{duration}}' 
+   circular='{{circular}}' 
+   indicator-active-color="{{indicatoractive}}" class='haibao'>
+ <block wx:for="{{imgurls}}" wx:key="key">
+    <swiper-item>
+    <image src="{{item}}"  style ="width:100% "  class='swiper-image' ></image>
+    </swiper-item>
+    </block>
+  </swiper>
+
+
+ <view class='search'>
+            <input type='text' placeholder='输入你想要的内容' confirm-type='search' value="{{inputValue}}" bindinput='inputBind' bindconfirm='query'></input>
+            <image class="" src='../images/search.png' ></image>
+        </view>
+  <view>
+<image src='../images/news.png' class='img'></image>新闻资讯
+</view>
+<view class='hr'></view>
+
+<view class='container' >
+<image src='http://cpc.people.com.cn/NMediaFile/2012/1121/MAIN201211211503553315855928596.jpg' class='one'></image>
+<view class='article'>
+<view>陈宝生谈干部教育培训成果</view>
+<view>张宏志等谈科学发展观</view>
+<view>李忠杰解读十八大报告</view>
+</view>
+  </view>
+  <view class='name'>中共十八大</view> 
+  <view><image src='../images/eye.png' class='eye'></image></view>
+  <view class='num'>999+</view>
+  <view class='hr-1'></view>
+
+
+
+<view class='container'>
+<image src='http://cpc.people.com.cn/NMediaFile/2012/1113/MAIN201211131658335769541488103.jpg' class='one'></image>
+<view class='article'>
+<view>十八大代表微博感言</view>
+<view>金牌农民工的奋斗史</view>
+<view>张香云棉花是我的孩子</view>
+</view>
+  </view>
+  <view class='name'>十八大代表微博感言</view> 
+  <view><image src='../images/eye.png' class='eye'></image></view>
+  <view class='num'>999+</view>
+  <view class='hr-1'></view>
+
+  <view class='container'>
+<image src='http://cpc.people.com.cn/NMediaFile/2012/1107/MAIN201211071945307295191370809.jpg' class='one'></image>
+<view class='article'>
+<view>
+十八大系列访谈</view>
+<view>安顺市委书记陈坚访谈</view>
+<view>小岗村党委书记访谈</view>
+</view>
+  </view>
+  <view class='name'>对话地方领导</view> 
+  <view><image src='../images/eye.png' class='eye'></image></view>
+  <view class='num'>999+</view>
+  <view class='hr-1'></view>
+
+  <view>
+<image src='../images/notice.png' class='img'></image>通知公告
+</view>
+<view class='hr'></view>
+
+<view class='container' >
+<view class='text'>中央组织部中央宣传部国务院国资委党委发出通知 要求认真学习贯彻习近平总书记重要指示精神广泛开展向黄群、宋月才、姜开斌同志为代表的抗灾抢险英雄群体和王继才同志学习</view>
+</view>
+<view class='name'>共产党员网</view> 
+  <view><image src='../images/eye.png' class='eye'></image></view>
+  <view class='num'>999+</view>
+  <view class='hr-1'></view>
+
+
+<view class='container' >
+<view class='text'>党的十八大以来组织工作述评
+</view>
+</view>
+<view class='name'>共产党员网</view> 
+  <view><image src='../images/eye.png' class='eye'></image></view>
+  <view class='num'>999+</view>
+  <view class='hr-1'></view>
+
+   <view>
+<image src='../images/public.png' class='img'></image>党务公开
+</view>
+<view class='hr'></view>
+<view class='container' >
+<view class='text'>绍兴市拟提拔任用市管领导干部任前公示通告
+（2018年第5号）
+</view>
+</view>
+
+ 
+
+ 

@@ -1,0 +1,52 @@
+/* pages/classify/classify.wxss */
+/* page{
+  
+  background: -webkit-linear-gradient(180deg, red, orange,yellow,#f0e9aa); 
+    background: -o-linear-gradient(180deg, red, orange,yellow,#f0e9aa); 
+    background: -moz-linear-gradient(180deg, red, orange,yellow,#f0e9aa);
+    background: linear-gradient(180deg, red, orange,yellow,#f0e9aa); 
+background-repeat: repeat-y;
+  } */
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  
+  
+}
+.classify-1{
+  width: 40px;
+  height: 40px;
+
+}
+.one{
+   width: 30px;
+  height: 30px;
+  padding: 3px 26px;
+  
+}
+.bg{
+  width: 80px;
+  height: 80px;
+  background-color: rgb(255, 255, 255);
+  border: solid #b4b2b2  1px;
+  margin-right: 10px;
+  border-radius: 50%;
+  margin-left: 40px;
+background: -webkit-linear-gradient(180deg, red, orange); 
+    background: -o-linear-gradient(180deg, red, orange); 
+    background: -moz-linear-gradient(180deg, red, orange); 
+    background: linear-gradient(180deg, red, orange); 
+
+
+
+
+}
+.title{
+  font-size: 15px;
+}

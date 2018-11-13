@@ -1,0 +1,40 @@
+<!--pages/classify/classify.wxml-->
+
+<view class='container'>
+   <view><image src='../images/class.png' class='classify-1'></image>红色课堂</view>
+</view>
+
+<view class='container'>
+<view class='bg'><image src='../images/class-1.png' class='one'  bindtap="jump"></image><view class='title'>两学一做</view></view>
+<view class='bg'><image src='../images/class-2.png' class='one' bindtap="jump"></image><view class='title'>专题学习</view></view>
+
+
+</view>
+<view class='container'>
+<view class='bg'><image src='../images/class-3.png' class='one' bindtap="jump"></image><view class='title'>政策法规</view></view>
+<view class='bg'><image src='../images/class-4.png' class='one' bindtap="jump"></image><view class='title'>红色影视</view></view>
+
+</view>
+
+
+
+
+<view class='hr'></view>
+
+<view class='container'>
+   <view><image src='../images/party.png' class='classify-1'></image>党员之家</view>
+</view>
+
+<view class='container'>
+<view class='bg'><image src='../images/party-1.png' class='one' bindtap="jump"></image><view class='title'>三会一课</view></view>
+<view class='bg'><image src='../images/party-2.png' class='one' bindtap="jump"></image><view class='title'>主题党日</view></view>
+
+</view>
+
+<view class='container'>
+
+<view class='bg'><image src='../images/party-3.png' class='one' bindtap="jump"></image><view class='title'>组织生活会</view></view>
+<view class='bg'><image src='../images/party-4.png' class='one' bindtap="jump"></image><view class='title'>民主生活会</view></view>
+</view>
+
+

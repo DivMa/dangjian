@@ -1,0 +1,12 @@
+<!--pages/relation/relation.wxml-->
+
+<view class='title'>中国共产党党员组织关系接收函</view>
+<view class='contain'>
+ <view>_____（原单位）___________：</view>
+ <view>
+_______同志（__(性别)，身份证号：_____________），系我单位职工，经其本人申请，同意接收其党组织关系，望贵单位予以配合。</view>
+
+
+<view>_____________________(接收单位)</view>
+2018.X.X
+</view>
